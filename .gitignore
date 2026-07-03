@@ -1,0 +1,79 @@
+# =========================
+# System / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+edusmartai-frontend/node_modules/
+edusmartai-frontend/.next/
+edusmartai-frontend/dist/
+edusmartai-frontend/build/
+edusmartai-frontend/.cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Data files
+# =========================
+Training_Data/
+AXI_Training/**/data/
+AXI_Training/**/*.csv
+AXI_Training/**/*.xlsx
+AXI_Training/**/*.xls
+
+# =========================
+# Large generated files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# =========================
+# ML temporary artifacts
+# =========================
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Keep safe environment templates
+!**/.env.example
+
+
+# Runtime uploads
+backend/uploads/
